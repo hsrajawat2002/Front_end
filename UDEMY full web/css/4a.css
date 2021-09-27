@@ -1,0 +1,7 @@
+body{
+    background-image: url('https://www.crushpixel.com/big-static16/preview4/abstract-background-with-3d-shapes-2500121.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%; /*it can have 2 attributes x,y where x is width and y is height, we can also have attributes like
+                           background position: we can have(right),(top) or (top left) as attributes in it*/
+                           /* in background size we also have contain,cover as attributes.*/    
+} 

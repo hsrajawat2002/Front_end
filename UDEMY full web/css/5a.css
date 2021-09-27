@@ -1,0 +1,23 @@
+#id1{
+    height: 150px; width: 100%;
+    background: linear-gradient(to right,lightblue,pink);
+}
+#id2{
+   height: 150px; width: 150px;
+   background: linear-gradient(45deg,lightblue,pink);
+   position: absolute; margin-bottom: 20px;
+}
+#id3{
+    height: 150px; width: 100%;
+    background: radial-gradient(circle,lightblue,pink); margin-top:30px ;
+}
+#newd{
+    width: 300px; margin-left: 100px; background-color: lightblue;padding: 40px;
+}
+#upper{
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+#lower{
+   /* word-break: break-all;*/ /*breaks without sense*/
+    word-wrap: break-word;     /* breaks with sense*/
+}

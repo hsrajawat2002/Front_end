@@ -1,0 +1,22 @@
+/* combinators
+1. descendent selector(" "): div p{} then all the p inside div will be modified
+2. child selector(">"): example div>p{} then only direct p inside divs will be modified
+3. adjacent selector("+"): ex. div+p{} means wherever one p just after div will be modified
+4. general sibling selector("~"): div~p{} means all the p that will be below div will be styled.*/
+
+
+/*Pseudo Elements*/
+p::first-line{
+    color: lightgreen;
+    font-style: italic;
+    font-size: 130%;
+}
+p::first-letter{
+    color: lightblue
+}
+p::selection{
+    color: black; font-size: 200%;
+}
+p::after{
+    content: url(https://i.pinimg.com/originals/25/f0/6c/25f06cfab35657a2bae4013541ccbfa6.jpg); width: 20px;
+}

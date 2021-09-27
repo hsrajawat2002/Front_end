@@ -1,0 +1,32 @@
+body{ margin: 0%;padding: 0%;}
+header{
+    background-color: lightblue;height: 100px;
+    position: sticky;top: 20px;
+    box-shadow: 4px 40px 50px grey;                          /* here the three value are horizontal,vertical and blurness of shadows */
+}
+main{padding: 0%;}
+aside{
+    background-color: red;height: 450px;width: 33%;margin: 0%;
+    display: inline-block;}
+section{
+    background-color: green;height: 450px;width: 67%;margin: 0%;
+    display: inline-block;float: right;}
+footer{
+    background-color: grey;
+    height: 300px;}
+#div1{
+    height: 500px; width: 800px;
+    overflow: scroll;   /* it has visible,hidden,scroll and auto.    used in case of overflow only.*/
+}
+#div2{
+    width: 200px; height: 200px; position: static; background-color: black;}
+#img2{ margin-left: 30px;}
+
+
+/* in position tag we have
+1. static: it will act according to normal webpage and height,width wont work.
+2. relative: here height,width and others can work
+3. absolute: it will be static over the container, ex. if a tag is absolute and it is indide a container
+             then it will be static over it
+4. fixed: it will remain fixed at a point even on scrolling the webpage
+5. sticky: same as fixed but it can take conditions like it will be relative for a certain point and after that it will behave as fixed. */

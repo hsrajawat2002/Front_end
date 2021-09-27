@@ -1,0 +1,46 @@
+p{
+    padding: 20px 10px 20px 10px;  /* here the four values represent top,right,bottom,left*/
+    padding: 20px 10px;            /*here the two values represent (top,bottom), (left,right)*/
+    font-size: 30px;
+}
+
+/*styling list*/
+#ordered{
+    width: 30px;
+    list-style-type:upper-roman ;
+    list-style-position: outside;
+
+}
+#unordered{
+    list-style-type: square;
+}
+
+/*styling links*/
+/* order to follow  link> visited> hower> active */
+.links{
+    padding: 30px;
+    font-size: 25px;
+    text-decoration: none;
+}
+.links:link{
+     color: blue;
+}
+.links:visited{
+    color: purple;
+}
+.links:hover{
+     color: black;
+     
+}
+.links:active{
+     color: aqua;
+}
+
+/*styling button*/
+#btn{
+    color: white; font-size: 25px; padding: 10px 15px;
+    outline: none; border: none; cursor: pointer;
+}
+#btn:hover{
+    color: lightblue; opacity: 0.5;
+}
